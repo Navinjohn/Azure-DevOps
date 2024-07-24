@@ -2,7 +2,7 @@ import flask from FLASK
 
 app = FLASK(__name__)
 
-@app.route('/home',method=["GET","POST"])
+@app.route('/',method=["GET","POST"])
 def Hello_World():
     return "Hello World"
 
