@@ -7,7 +7,9 @@ trigger:
 - main  # or the branch you want to trigger the pipeline
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Self-Hosted agent pool
+  demands:
+    - agent.name -equals Self-Hosted agent pool
 
 variables:
   dockerRegistryServiceConnection: 'Docker Hub Repo'
