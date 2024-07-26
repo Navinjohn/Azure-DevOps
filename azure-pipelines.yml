@@ -16,7 +16,7 @@ variables:
   imageRepository: 'navinjohn/flask_docker'
   dockerfilePath: 'Dockerfile'
   tag: 'latest'
-  dockerUsername: 'Navinjohn'
+  dockerUsername: 'navinjohn'
   dockerPassword: 'Navinjohn@08'
 
 steps:
